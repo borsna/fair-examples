@@ -6,6 +6,7 @@
 <html lang="en"> <!-- language used on the landing page-->
     <head>
         <title>My dataset</title>
+
         <!-- full json-ld document -->
         <script type="application/ld+json">
         {
@@ -89,6 +90,7 @@
         }
         </script>
 
+        <!-- general description will be used in search results -->
         <meta name="description" content="Example description in english">
 
         <link rel="cite-as" href="https://doi.org/10.4242/ncc-1701" />
@@ -108,6 +110,8 @@
         
         <!-- declare license used-->
         <link rel="license" href="https://creativecommons.org/licenses/by/4.0/" />
+        
+        <!-- indicate openAccess -->
         <meta name="DC.rights" content="info:eu-repo/semantics/openAccess" scheme="DCTERMS.URI" />
         
         <!-- link to downloadable data files-->
@@ -115,12 +119,12 @@
         
         <!-- link to json-ld representation -->
         <link rel="describedby" type="application/ld+json" href="https://borsna.github.io/fair-examples/catalogue/dataset/ds-1/metadata/ds-1.json" />
+        
+        <!-- link to rdf-xml representation -->
         <link rel="describedby" type="application/rdf+xml" href="https://borsna.github.io/fair-examples/catalogue/dataset/ds-1/metadata/ds-1.xml" />
+        
         <!-- link to datacite xml metadata -->
         <link rel="describedby" type="application/vnd.datacite.datacite+xml" href="https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.4242/ncc-1701" />
-        
-        <!-- other representation -->
-        <link rel="describedby" type="application/xml" href="ds-1.xml" />
     </head>
     <body>
         <article>

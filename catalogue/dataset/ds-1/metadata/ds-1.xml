@@ -16,8 +16,8 @@
         <dcat:hadRole rdf:resource="http://inspire.ec.europa.eu/metadata-codelist/ResponsiblePartyRole/Author"/>
         <prov:agent>
           <foaf:Agent>
-            <foaf:name xml:lang="en">Swedish Polar Research Secretariat</foaf:name>
-            <foaf:name xml:lang="sv">Polarforskningssekretariatet</foaf:name>
+            <foaf:name xml:lang="en">CESSDA</foaf:name>
+            <foaf:name xml:lang="sv">CESSDA</foaf:name>
             <dcterms:type rdf:resource="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
           </foaf:Agent>
         </prov:agent>

@@ -1,7 +1,7 @@
-# fair-examples
+# FAIR-examples (work in progress)
 
 Example of how to do FAIR markup for a dataset landing page
-The goal of this repository is to be a markup example for FAIR implementation of a dataset
+The goal of this repository is to provide markup examples for FAIR metadata for datasets in a data catalogue.
 
 Readme-files and html comments provide more details.
 
