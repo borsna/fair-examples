@@ -66,6 +66,25 @@
                     "@id": "https://doi.org/10.4242/ncc-1701#test-data.csv",
                     "contentUrl": "https://borsna.github.io/fair-examples/catalogue/dataset/ds-1/data/test-data.csv"
                 }
+            ],
+            "variableMeasured": [
+                {
+                    "@type": "PropertyValue",
+                    "name": "Id",
+                    "description": "Row identifier"
+                }, 
+                {
+                    "@type": "PropertyValue",
+                    "description": "Air temperature",
+                    "name": "TA_1.4m",
+                    "unitText": "°C"
+                }, 
+                {
+                    "@type": "PropertyValue",
+                    "description": "Air temperature",
+                    "name": "TA_0.4m",
+                    "unitText": "°C"
+                }
             ]
         }
         </script>
@@ -96,6 +115,7 @@
         
         <!-- link to json-ld representation -->
         <link rel="describedby" type="application/ld+json" href="https://borsna.github.io/fair-examples/catalogue/dataset/ds-1/metadata/ds-1.json" />
+        <link rel="describedby" type="application/rdf+xml" href="https://borsna.github.io/fair-examples/catalogue/dataset/ds-1/metadata/ds-1.xml" />
         <!-- link to datacite xml metadata -->
         <link rel="describedby" type="application/vnd.datacite.datacite+xml" href="https://api.datacite.org/dois/application/vnd.datacite.datacite+xml/10.4242/ncc-1701" />
         
@@ -122,8 +142,10 @@
                 </li>
             </ul>
 
+            <h2>Downloads</h2>
             <a href="https://borsna.github.io/fair-examples/catalogue/dataset/ds-1/data/test-data.csv">test-data.csv</a>
             
+            <h2>License</h2>
             <!-- License information with rel attribute -->
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
         </article>

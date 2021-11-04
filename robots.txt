@@ -1,1 +1,13 @@
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like and Google. 
+# By telling these "robots" where not to go on your site
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+# Provide link to the data catalogue sitemap
+# This will tell crawlers where to find all landing pages
 Sitemap: /catalogue/sitemap.xml
